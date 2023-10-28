@@ -1,0 +1,205 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Wenneker Resume/CV
+% LaTeX Template
+% Version 1.1 (19/6/2016)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Frits Wenneker (http://www.howtotex.com) with extensive modifications by 
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,12pt]{memoir} % Font and paper size
+
+\input{structure.tex} % Include the file specifying document layout and packages
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION 
+%----------------------------------------------------------------------------------------
+
+\userinformation{ % Set the content that goes into the sidebar of each page
+\begin{flushright}
+% Comment out this figure block if you don't want a photo
+\includegraphics[width=0.6\columnwidth]{photo.jpg}\\[\baselineskip] % Your photo
+\small % Smaller font size
+Christian Espinosa \\ % Your name
+\url{Escribe el correo} \\ % Your email address
+(01) escribe el numero \\ % Your phone number
+\Sep % Some whitespace
+\textbf{Direccion} \\
+calle \\ % Address 1
+Residencia \\ % Address 2
+Pais\\ % Address 3
+\vfill % Whitespace under this block to push it up under the photo
+\end{flushright}
+}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\userinformation % Print your information in the left column
+
+\framebreak % End of the first column
+
+%----------------------------------------------------------------------------------------
+%	HEADING
+%----------------------------------------------------------------------------------------
+
+\cvheading{Curriculum Vitae} % Large heading - your name
+
+\cvsubheading{Estudiante Ingeniería en Computación} % Subheading - your occupation/specialization
+
+%----------------------------------------------------------------------------------------
+%	ABOUT ME
+%----------------------------------------------------------------------------------------
+
+\aboutme{Sobre mi:}{Soy un apasionado de la electrónica y el desarrollo de software, siempre ansioso por aprender y explorar.}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\CVSection{Educación}
+
+%------------------------------------------------
+
+\CVItem{2023 - Presente, Universidad }{Licenciatura En Ingeniería en Computación}
+
+%------------------------------------------------
+
+\CVItem{2011 - 2020, Universidad  }{Licenciatura En Ingeniería en Computación}
+
+%------------------------------------------------
+
+\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\CVSection{Experiencia}
+
+%------------------------------------------------
+
+\CVItem{Diciembre 2020 - Enero 2023, \textit{Desarrollador web},}{
+Asingaciones
+\begin{itemize}
+	\item Programador web en el desarrollo de  un sistema integral de captura de datos, incluyendo la creación de dashboard a medida para el manejo y administración de información estudiantil (Backend y Frontend), utilizando tecnologías como:
+	\begin{itemize}
+		\item Framework Lit
+		\item TypeScript
+		\item JavaScript
+		\item NodeJs
+		\item React Framework
+	\end{itemize}
+\end{itemize}
+}
+
+%------------------------------------------------
+
+\CVItem{2013 - Presente, \textit{Reparacion de Equipo de Computo}, Independiente}{Proporciono soluciones en hardware y software para equipos de cómputo, así como servicios de mantenimiento preventivo y correctivo. Mi experiencia incluye diagnóstico, reparaciones de hardware, instalación y actualización de software. He ayudado a clientes a resolver una variedad de desafíos tecnológicos, asegurando un rendimiento óptimo de sus sistemas informáticos a largo plazo. }
+
+%------------------------------------------------
+
+\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS
+%----------------------------------------------------------------------------------------
+
+\CVSection{ Habilidades y Aptitudes}{
+	\begin{itemize}
+		\item Sentido de Responsabilidad
+		\item Trabajo en equipo
+		\item Adaptabilidad
+	\end{itemize}
+}
+
+\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+%	SKILLS
+%----------------------------------------------------------------------------------------
+
+\CVSection{Habilidades de Desarrollo}
+
+%------------------------------------------------
+
+\CVItem{Programación}
+{\begin{tabular}{p{0.2\textwidth} p{0.2\textwidth} p{0.2\textwidth}}
+\bluebullet Java &  \bluebullet JavaScript & \bluebullet CSS\\
+\bluebullet TypeScript &  \bluebullet React & \bluebullet Lit\\
+\bluebullet LaTex &  \bluebullet NodeJs   & \bluebullet HTML5 \\
+\end{tabular}}
+
+%------------------------------------------------
+\Sep
+
+\CVItem{Software}
+{\begin{tabular}{p{0.2\textwidth} p{0.2\textwidth} p{0.2\textwidth}}
+ \bluebullet Linux-Fedora &  VsCode\bluebullet  & \bluebullet MySQL\\
+\end{tabular}}
+
+%------------------------------------------------
+
+\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+%	NEW PAGE DELIMITER
+%	Place this block wherever you would like the content of your CV to go onto the next page
+%----------------------------------------------------------------------------------------
+
+\clearpage % Start a new page
+
+\userinformation % Print your information in the left column
+
+\framebreak % End of the first column
+
+\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS
+%----------------------------------------------------------------------------------------
+
+\CVSection{Intereses}
+
+%------------------------------------------------
+
+\CVItem{Profesionalmente}{
+	\begin{itemize}
+		\item Aprendizaje continuo
+		\item Crecimiento Profesional
+		\item Perfeccionamiento de habilidades en el desarrollo
+	\end{itemize}
+
+}
+
+\CVSection{Idiomas}{
+		\begin{itemize}
+			\item Español (Nativo)
+			\item Ingles (Intermedio)
+		\end{itemize}
+}
+
+
+%------------------------------------------------
+
+
+%------------------------------------------------
+
+\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
